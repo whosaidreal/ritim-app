@@ -3,84 +3,188 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ritim</title>
-<meta name="description" content="Kendi müzik dosyaların için hi-fi çalar; listelerin Wi-Fi ile iPhone'una gelir.">
-<style>
-  body { margin: 0; background: #0d1117; color: #edf1f6; font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
-  h1 { font-size: 32px; margin: 0 0 4px; }
-  h2 { font-size: 18px; margin: 32px 0 8px; color: #48d9ee; }
-  p, li { color: #c8d0da; }
-  a { color: #48d9ee; }
-  hr { border: 0; border-top: 1px solid #222b38; margin: 40px 0; }
-  .alt { font-size: 18px; margin: 0 0 24px; }
-  .dugmeler { display: flex; flex-wrap: wrap; gap: 10px; }
-  .dugme { display: inline-block; padding: 12px 22px; border-radius: 12px; font-weight: 600; color: #0b1620; text-decoration: none;
-           background: linear-gradient(90deg, #2f7fd6, #48d9ee); }
-  .dugme.ikincil { color: #edf1f6; background: #161d27; border: 1px solid #2a3442; }
-  .kucuk { font-size: 14px; color: #8a96a6; margin-top: 10px; }
-  .not { border: 1px solid #d8bd7d; background: rgba(216, 189, 125, 0.1); color: #d8bd7d; border-radius: 10px; padding: 10px 14px; font-size: 14px; }
-</style>
+<title>Ritim · Hi-fi müzik çalar</title>
+<meta name="description" content="Kendi müzik dosyaların için hi-fi çalar: FLAC ve diğer biçimleri kayıpsız, DAC Exclusive ile bit-perfect çalar. Listelerin Wi-Fi ile iPhone'una gelir. Ücretsiz; Windows ve iPhone için.">
+<meta name="theme-color" content="#0a1017">
+<link rel="icon" href="img/simge-32.png" sizes="32x32">
+<link rel="icon" href="img/simge-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="img/simge-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ritim">
+<meta property="og:title" content="Ritim · Hi-fi müzik çalar">
+<meta property="og:description" content="Kendi müzik dosyaların için hi-fi çalar. Listelerin Wi-Fi ile iPhone'una gelir. Ücretsiz; Windows ve iPhone için.">
+<meta property="og:url" content="https://whosaidreal.github.io/ritim-app/">
+<meta property="og:image" content="https://whosaidreal.github.io/ritim-app/img/paylasim.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="stil.css">
 </head>
 <body>
+<header class="ust">
+  <div class="kap">
+    <a class="marka" href="./"><img src="img/simge-64.png" alt="" width="36" height="36"><span>Ritim</span></a>
+    <nav aria-label="Ana menü">
+      <a class="genis" href="#ozellikler">Özellikler</a>
+      <a href="destek.html">Destek</a>
+      <a class="indir-kisa" href="indir.html">İndir</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-  <h1>Ritim</h1>
-  <p class="alt">Kendi müzik dosyaların için hi-fi çalar. Listelerin Wi-Fi ile iPhone'una gelir.</p>
-  <div class="dugmeler">
-    <a class="dugme" href="https://github.com/whosaidreal/ritim-app/releases/latest/download/Ritim_Setup.exe">Windows için indir</a>
-    <a class="dugme ikincil" href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a>
-    <a class="dugme ikincil" href="https://apps.apple.com/app/id6835273556">iPhone: App Store</a>
+<section class="giris">
+  <div class="kap">
+    <div>
+      <span class="etiket">Ücretsiz · <span lang="en">Windows</span> ve <span lang="en">iPhone</span></span>
+      <h1>Müziğin, <em>olduğu gibi</em></h1>
+      <p class="alt">Bilgisayarındaki müzik dosyalarını kayıpsız çalan hi-fi çalar. DAC Exclusive açıkken örnekler
+        DAC'ına hiç değişmeden gider; listelerin Wi-Fi ile iPhone'una gelir.</p>
+      <div class="dugmeler">
+        <a class="dugme" href="indir.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Ücretsiz indir</a>
+        <a class="dugme ikincil" href="#ozellikler">Neler yapar?</a>
+      </div>
+      <ul class="guven">
+        <li>Hesap yok</li>
+        <li>Reklam yok</li>
+        <li>İnternete bağlanmaz</li>
+      </ul>
+    </div>
+    <div class="vitrin">
+      <img class="pc" src="img/pc-calma.webp" width="1600" height="900" fetchpriority="high"
+           alt="Windows'ta Ritim: solda çalma listesi, ortada albüm kapağı ve FLAC, 24-bit, 48 kHz rozetleri, altta DAC Exclusive">
+      <img class="telefon" src="img/iphone-calar.webp" width="600" height="1304"
+           alt="iPhone'da Ritim'in çalar ekranı: FLAC, 24 bit, 96 kHz ve Hi-Res işareti">
+    </div>
   </div>
-  <p class="kucuk">Windows 10 ve 11, 64 bit · <a href="https://github.com/whosaidreal/ritim-app/releases/latest/download/Ritim_Portable.exe">kurmadan kullanılan tek dosya</a> · <a href="https://github.com/whosaidreal/ritim-app/releases">bütün sürümler</a></p>
+</section>
 
-  <h2>Ne yapar?</h2>
-  <ul>
-    <li>Bilgisayarındaki müziği kayıpsız çalar. DAC Exclusive açıkken ve ses %100'deyken örnekler DAC'ına hiç değişmeden gider (bit-perfect).</li>
-    <li>Parçalar arasında boşluk yoktur; canlı kayıtlar ve kesintisiz albümler kesilmeden akar.</li>
-    <li>FLAC, ALAC, WAV, AIFF, MP3, AAC/M4A, Ogg Vorbis, Opus ve WMA çalar.</li>
-    <li>Adlı listelerini kablosuz olarak iPhone'una taşır: bir kez 6 haneli kodla eşleşirsin, parçalar kapaklarıyla iner ve internet olmadan da çalar.</li>
-    <li>Arayüz Türkçe ve İngilizcedir. İnternete bağlanmaz; hesap, reklam ya da veri toplama yoktur.</li>
-  </ul>
-
-  <h2>Hangisini kurmalıyım?</h2>
-  <ul>
-    <li><b>Microsoft Store:</b> kendiliğinden güncellenir.</li>
-    <li><b>Buradan indirilen kurulum programı:</b> Store kullanmayanlar için. Bilgisayarda tek bir Ritim kalır: kurulum programı Store sürümünü bulursa onun yerine geçmeyi önerir; listelerin ve ayarların korunur.</li>
-    <li><b>App Store:</b> iPhone uygulaması. Listeleri bilgisayardaki Ritim'den alır; Dosyalar'dan ya da başka uygulamalardan müzik de eklenebilir.</li>
-  </ul>
-  <p class="not">Buradaki kurulum programı kod imzalı değil. Windows "Windows kişisel bilgisayarınızı korudu" derse: <b>Ek bilgi › Yine de çalıştır</b>. Store sürümü bu uyarıyı göstermez.</p>
-
-  <p><a href="destek.html">Destek</a> · <a href="gizlilik.html">Gizlilik</a> · <a href="https://github.com/whosaidreal/ritim-app/blob/main/THIRD_PARTY_NOTICES.txt">Açık kaynak lisansları</a></p>
-
-  <hr>
-
-  <h1>Ritim</h1>
-  <p class="alt">A hi-fi player for your own music files. Your playlists come to your iPhone over Wi-Fi.</p>
-  <div class="dugmeler">
-    <a class="dugme" href="https://github.com/whosaidreal/ritim-app/releases/latest/download/Ritim_Setup.exe">Download for Windows</a>
-    <a class="dugme ikincil" href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a>
-    <a class="dugme ikincil" href="https://apps.apple.com/app/id6835273556">iPhone: App Store</a>
+<section class="bolum koyu" id="ozellikler">
+  <div class="kap">
+    <div class="bolum-baslik">
+      <h2>Neler yapar?</h2>
+      <p>Kendi müzik arşivini en iyi hâliyle dinlemek isteyenler için.</p>
+      <div class="cizgi"></div>
+    </div>
+    <div class="izgara">
+      <article class="kart">
+        <img src="img/kart-bitperfect.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="Çalan parçanın FLAC, 24-bit, 96 kHz rozetleri ve altta açık DAC Exclusive anahtarı">
+        <div class="metin"><span class="tur" lang="en">Windows</span><h3>Bit-perfect çalma</h3>
+          <p>DAC Exclusive açıkken ve ses %100'deyken örnekler DAC'ına dosyadaki hâliyle gider. Biçim, bit derinliği
+            ve örnekleme hızı her an görünür.</p></div>
+      </article>
+      <article class="kart">
+        <img src="img/kart-bicimler.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="Çalma listesi: her parçanın yanında 24/48, 16/44.1 gibi kalite bilgisi">
+        <div class="metin"><span class="tur" lang="en">Windows</span><h3>Her biçim, boşluksuz</h3>
+          <p>FLAC, ALAC, WAV, AIFF, MP3, AAC/M4A, Ogg Vorbis, Opus ve WMA çalar. Parçalar arasında boşluk yoktur; canlı
+            kayıtlar ve kesintisiz albümler kesilmeden akar.</p></div>
+      </article>
+      <article class="kart">
+        <img src="img/kart-renk.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="Altın renkli bir kapakla altın tonlarına bürünmüş çalar ekranı ve görselleştirici">
+        <div class="metin"><span class="tur" lang="en">Windows</span><h3>Kapağın renginde</h3>
+          <p>Arayüz ve görselleştirici albüm kapağının rengine bürünür. Listende anında ararsın, sıralarsın, sürükleyerek
+            düzenlersin.</p></div>
+      </article>
+      <article class="kart">
+        <img src="img/kart-eslestir.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="iPhone ile eşitleme penceresi: 6 haneli eşleştirme kodu ve iPhone'a gönderilen listeler">
+        <div class="metin"><span class="tur" lang="en">Windows</span><h3>iPhone'a kablosuz</h3>
+          <p>Bir kez 6 haneli kodla eşleşirsin; işaretlediğin listeler Wi-Fi ile iPhone'una gider. Kablo yok, bulut yok,
+            hesap yok.</p></div>
+      </article>
+      <article class="kart">
+        <img src="img/kart-esitle.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="iPhone'da bilgisayardan bulunan listeler ve Eşitle düğmeleri">
+        <div class="metin"><span class="tur" lang="en">iPhone</span><h3>Listelerin cebinde</h3>
+          <p>Parçalar kapaklarıyla iner, internet olmadan da çalar. Bilgisayarda listeye parça eklersen iPhone farkı görür
+            ve yalnızca yenileri indirir.</p></div>
+      </article>
+      <article class="kart">
+        <img src="img/kart-hires.webp" width="720" height="740" loading="lazy" decoding="async"
+             alt="iPhone'da çalan parça: FLAC, 24 bit, 96 kHz ve altın renkli Hi-Res işareti">
+        <div class="metin"><span class="tur" lang="en">iPhone</span><h3>Cepte de hi-res</h3>
+          <p>Her parçanın biçimi ve kalitesi bir bakışta; yüksek çözünürlüklü dosyalarda altın renkli Hi-Res işareti.
+            USB DAC dosyanın hızında çalışabilir.</p></div>
+      </article>
+    </div>
+    <p class="dipnot">Ayrıca medya tuşları, görev çubuğu önizlemesinde oynatma düğmeleri, ReplayGain ve M3U, M3U8, PLS, WPL
+      listeleri. Arayüz Türkçe ve İngilizcedir.</p>
   </div>
-  <p class="kucuk">Windows 10 and 11, 64-bit · <a href="https://github.com/whosaidreal/ritim-app/releases/latest/download/Ritim_Portable.exe">single file, no install</a> · <a href="https://github.com/whosaidreal/ritim-app/releases">all releases</a></p>
+</section>
 
-  <h2>What it does</h2>
-  <ul>
-    <li>Plays the music on your PC in full lossless quality. With DAC Exclusive on and the volume at 100%, the samples reach your DAC exactly as they are in the file (bit-perfect).</li>
-    <li>No gaps between tracks, so live recordings and continuous albums flow without a break.</li>
-    <li>Plays FLAC, ALAC, WAV, AIFF, MP3, AAC/M4A, Ogg Vorbis, Opus and WMA.</li>
-    <li>Takes your named playlists to your iPhone without a cable: pair once with a 6-digit code, and the tracks arrive with their covers and play without an internet connection.</li>
-    <li>The interface is in English and Turkish. It does not connect to the internet; no account, no ads, no data collection.</li>
-  </ul>
+<section class="bolum">
+  <div class="kap">
+    <div class="bolum-baslik">
+      <h2>Müziğin sende kalır</h2>
+      <div class="cizgi"></div>
+    </div>
+    <div class="ilkeler">
+      <div class="ilke">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+        <h3>İnternete bağlanmaz</h3>
+        <p>Ritim kendi bilgisayarında çalışır. iPhone ile eşitleme de yalnızca evinin ağında olur.</p>
+      </div>
+      <div class="ilke">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/><path d="M3 3l18 18"/></svg>
+        <h3>Hesap ve reklam yok</h3>
+        <p>Üyelik, reklam ya da kullanım takibi yoktur. <a href="gizlilik.html">Gizlilik politikası</a></p>
+      </div>
+      <div class="ilke">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        <h3>Dosyalarına dokunmaz</h3>
+        <p>Müzik dosyaların değiştirilmez; Ritim onları yalnızca çalar.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h2>Which one should I install?</h2>
-  <ul>
-    <li><b>Microsoft Store:</b> updates itself.</li>
-    <li><b>The installer from this page:</b> for those who do not use the Store. Only one copy of Ritim stays on the PC: if the installer finds the Store version, it offers to replace it, and your playlists and settings are kept.</li>
-    <li><b>App Store:</b> the iPhone app. It gets your playlists from Ritim on your PC; you can also add music from Files or from other apps.</li>
-  </ul>
-  <p class="not">The installer on this page is not code-signed. If Windows says "Windows protected your PC", choose <b>More info › Run anyway</b>. The Store version does not show this warning.</p>
+<section class="cagri">
+  <h2>Hemen dinle</h2>
+  <p>Ücretsiz; kurulum bir dakika sürer. Bir sorun olursa <a href="destek.html">Destek</a> sayfasına bak.</p>
+  <a class="dugme" href="indir.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>İndirme sayfasına git</a>
+</section>
 
-  <p><a href="destek.html">Support</a> · <a href="gizlilik.html">Privacy</a> · <a href="https://github.com/whosaidreal/ritim-app/blob/main/THIRD_PARTY_NOTICES.txt">Open-source licences</a></p>
+<section class="ingilizce" lang="en">
+  <div class="kap">
+    <h2>In English</h2>
+    <p>Ritim is a free hi-fi music player for Windows that plays the music files on your PC in full lossless quality.
+      With DAC Exclusive on and the volume at 100%, the samples reach your DAC exactly as they are in the file
+      (bit-perfect). Its iPhone app receives your playlists over Wi-Fi and plays them without an internet connection.
+      No account, no ads, no data collection. The interface is in English and Turkish.</p>
+    <p><a href="indir.html">Download</a> · <a href="destek.html#en">Support</a> · <a href="gizlilik.html#en">Privacy policy</a></p>
+  </div>
+</section>
 </main>
+
+<footer class="alt-bilgi">
+  <div class="kap">
+    <div>
+      <a class="marka" href="./"><img src="img/simge-64.png" alt="" width="36" height="36"><span>Ritim</span></a>
+      <p class="tanim">Kendi müzik dosyaların için hi-fi çalar. Windows ve iPhone için ücretsiz.</p>
+    </div>
+    <div>
+      <h3>Sayfalar</h3>
+      <ul>
+        <li><a href="indir.html">İndir</a></li>
+        <li><a href="destek.html">Destek</a></li>
+        <li><a href="gizlilik.html">Gizlilik</a></li>
+        <li><a href="https://github.com/whosaidreal/ritim-app/releases">Bütün sürümler</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Mağazalar</h3>
+      <ul>
+        <li><a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a></li>
+        <li><a href="https://apps.apple.com/app/id6835273556">App Store</a></li>
+        <li><a href="https://github.com/whosaidreal/ritim-app/blob/main/THIRD_PARTY_NOTICES.txt">Açık kaynak lisansları</a></li>
+      </ul>
+    </div>
+    <p class="yasal">© 2026 advocado</p>
+  </div>
+</footer>
 </body>
 </html>

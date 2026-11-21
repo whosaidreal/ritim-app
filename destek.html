@@ -3,88 +3,199 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ritim Destek</title>
-<style>
-  body { margin: 0; background: #0d1117; color: #edf1f6; font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { font-size: 26px; margin: 0 0 4px; }
-  h2 { font-size: 18px; margin: 32px 0 8px; color: #48d9ee; }
-  p, li { color: #c8d0da; }
-  hr { border: 0; border-top: 1px solid #222b38; margin: 40px 0; }
-  a { color: #48d9ee; }
-  .ust { margin: 0 0 20px; font-size: 14px; }
-</style>
+<title>Destek · Ritim</title>
+<meta name="description" content="Ritim için kurulum, DAC Exclusive, iPhone ile eşleştirme ve sık sorulanlar.">
+<meta name="theme-color" content="#0a1017">
+<link rel="icon" href="img/simge-32.png" sizes="32x32">
+<link rel="icon" href="img/simge-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="img/simge-180.png">
+<link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<main>
-  <p class="ust"><a href="./">← Ritim</a></p>
-  <h1>Ritim Destek</h1>
-  <p>Ritim, Windows için bir hi-fi müzik çalar (Microsoft Store'da "Ritim Hi-Fi Player") ve listelerini Wi-Fi üzerinden alan bir iPhone uygulamasıdır.</p>
+<header class="ust">
+  <div class="kap">
+    <a class="marka" href="./"><img src="img/simge-64.png" alt="" width="36" height="36"><span>Ritim</span></a>
+    <nav aria-label="Ana menü">
+      <a class="genis" href="./#ozellikler">Özellikler</a>
+      <a href="destek.html" aria-current="page">Destek</a>
+      <a class="indir-kisa" href="indir.html">İndir</a>
+    </nav>
+  </div>
+</header>
 
-  <h2>Windows'ta kurulum</h2>
-  <ul>
-    <li>Ritim'i <a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store'dan</a> ya da <a href="./">bu sayfadaki kurulum programıyla</a> kurabilirsin. Bilgisayarda tek bir kopya kalır; biri ötekinin yerine geçerken listelerin ve ayarların korunur.</li>
-    <li>Kurulum programı kod imzalı değil. Windows "Windows kişisel bilgisayarınızı korudu" derse Ek bilgi › Yine de çalıştır'ı seç.</li>
-  </ul>
+<main class="kap yazi-sayfasi">
+  <h1>Destek</h1>
+  <p class="soluk"><a href="#en">English</a></p>
+  <p>Ritim, Windows için bir hi-fi müzik çalar (Microsoft Store'da "Ritim Hi-Fi Player") ve listelerini Wi-Fi üzerinden
+    alan bir iPhone uygulamasıdır.</p>
 
-  <h2>DAC Exclusive</h2>
-  <p>Sağ alttaki çıkış cihazının yanındaki DAC Exclusive, sesi Windows'un karıştırıcısından geçirmeden doğrudan DAC'a gönderir. Ses %100'deyken "Bit-perfect" yazısı altın rengi olur. Cihazın bu modu desteklemiyorsa ya da başka bir program sesi tutuyorsa DAC Exclusive'i kapat; Ritim normal modda çalmaya devam eder.</p>
+  <div class="iletisim" id="iletisim">
+    <p><b>Soru, öneri ya da hata bildirimi için:</b> <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a>.
+      İstersen <a href="https://github.com/whosaidreal/ritim-app/issues">GitHub'da</a> da yazabilirsin. Hata bildirirken
+      Windows sürümünü ya da iPhone modelini, Ritim'in sürümünü ve sorunun ne yaparken çıktığını yazman yeterli.</p>
+  </div>
 
-  <h2>iPhone'u bilgisayarla eşleştirmek</h2>
-  <ol>
-    <li>Bilgisayardaki Ritim'de listeye bir isim ver ve liste menüsünden "iPhone ile eşitle"yi aç.</li>
-    <li>Liste menüsünden "iPhone bağlantısı…" penceresini aç: 6 haneli kod ve bilgisayarın adresi orada yazar.</li>
-    <li>iPhone'da <a href="https://apps.apple.com/app/id6835273556">Ritim'i</a> aç. Bilgisayar görününce "Eşleştir"e dokun ve kodu gir. Bir kez eşleşmek yeter.</li>
-  </ol>
+  <h2>Sık sorulanlar</h2>
 
-  <h2>Bilgisayar iPhone'da görünmüyorsa</h2>
-  <ul>
-    <li>Bilgisayar ve iPhone aynı Wi-Fi ağında olmalı; bilgisayarda Ritim açık olmalı.</li>
-    <li>iPhone'da Ayarlar › Ritim › Yerel Ağ açık olmalı.</li>
-    <li>Windows güvenlik duvarı sorduysa Ritim'e "Erişime izin ver" de; ağ türünü "Özel" yap.</li>
-    <li>Yine görünmezse iPhone'da "Adresle bağlan"a "iPhone bağlantısı…" penceresindeki adresi yaz.</li>
-  </ul>
-
-  <h2>Dil</h2>
-  <p>Windows'ta Ritim, Windows'un diline göre Türkçe ya da İngilizce açılır; ⋯ menüsü › Dil'den değiştirilebilir, bir sonraki açılışta geçerli olur. iPhone'da Ritim, telefon Türkçeyse Türkçe, başka bir dildeyse İngilizce açılır; Ayarlar › Ritim › Dil'den değiştirilebilir.</p>
-
-  <h2>İletişim</h2>
-  <p>E-posta: <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a>. Soru ve sorunlarını <a href="https://github.com/whosaidreal/ritim-app/issues">GitHub'da</a> da yazabilirsin.</p>
+  <details>
+    <summary>Windows'a nasıl kurarım?</summary>
+    <p><a href="indir.html">İndirme sayfasından</a> kurulum programını indirip çift tıkla ya da Ritim'i
+      <a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store'dan</a> kur. Yönetici izni gerekmez; Ritim
+      Başlat menüsüne ve masaüstüne eklenir. Bilgisayarda tek bir kopya kalır; biri ötekinin yerine geçerken listelerin ve
+      ayarların korunur.</p>
+  </details>
+  <details>
+    <summary>Windows "Windows kişisel bilgisayarınızı korudu" diyor</summary>
+    <p>Kurulum programı kod imzalı değil; Windows tanımadığı programlarda bu uyarıyı gösterir. Önce <b>Ek bilgi</b>'yi,
+      sonra <b>Yine de çalıştır</b>'ı seç. Her sürümün SHA-256 özeti
+      <a href="https://github.com/whosaidreal/ritim-app/releases">sürüm notunda</a> yazar. Microsoft Store sürümü bu
+      uyarıyı göstermez.</p>
+  </details>
+  <details>
+    <summary>Microsoft Store mu, kurulum programı mı?</summary>
+    <p>İkisi de aynı program. Microsoft Store sürümü kendiliğinden güncellenir ve uyarı göstermez. Kurulum programı Store
+      kullanmayanlar için; Denetim Masası'ndan ya da Ayarlar › Uygulamalar'dan kaldırılır. Bilgisayarda tek bir Ritim
+      kalır: kurulum programı Store sürümünü bulursa onun yerine geçmeyi önerir. Store sürümü de kurulum programıyla
+      yüklenmiş bir kopya bulursa onu kaldırmayı önerir; "Kalsın" dersen bir daha sormaz. Taşınabilir sürüm kurulmadan,
+      tek dosya olarak çalışır.</p>
+  </details>
+  <details>
+    <summary>DAC Exclusive nedir?</summary>
+    <p>Sağ alttaki çıkış cihazının yanındaki DAC Exclusive, sesi Windows'un karıştırıcısından geçirmeden doğrudan DAC'a
+      gönderir. Ses %100'deyken "Bit-perfect" yazısı altın rengi olur. Cihazın bu modu desteklemiyorsa ya da başka bir
+      program sesi tutuyorsa DAC Exclusive'i kapat; Ritim normal modda çalmaya devam eder.</p>
+  </details>
+  <details>
+    <summary>iPhone'u bilgisayarla nasıl eşleştiririm?</summary>
+    <ol>
+      <li>Bilgisayardaki Ritim'de listeye bir isim ver ve liste menüsünden "iPhone ile eşitle"yi aç.</li>
+      <li>Liste menüsünden "iPhone bağlantısı…" penceresini aç: 6 haneli kod ve bilgisayarın adresi orada yazar.</li>
+      <li>iPhone'da <a href="https://apps.apple.com/app/id6835273556">Ritim'i</a> aç. Bilgisayar görününce "Eşleştir"e
+        dokun ve kodu gir. Bir kez eşleşmek yeter.</li>
+    </ol>
+  </details>
+  <details>
+    <summary>Bilgisayar iPhone'da görünmüyor</summary>
+    <ul>
+      <li>Bilgisayar ve iPhone aynı Wi-Fi ağında olmalı; bilgisayarda Ritim açık olmalı.</li>
+      <li>iPhone'da Ayarlar › Ritim › Yerel Ağ açık olmalı.</li>
+      <li>Windows güvenlik duvarı sorduysa Ritim'e "Erişime izin ver" de; ağ türünü "Özel" yap.</li>
+      <li>Yine görünmezse iPhone'da "Adresle bağlan"a "iPhone bağlantısı…" penceresindeki adresi yaz.</li>
+    </ul>
+  </details>
+  <details>
+    <summary>Dili nasıl değiştiririm?</summary>
+    <p>Windows'ta Ritim, Windows'un diline göre Türkçe ya da İngilizce açılır; ⋯ menüsü › Dil'den değiştirilebilir, bir
+      sonraki açılışta geçerli olur. iPhone'da Ritim, telefon Türkçeyse Türkçe, başka bir dildeyse İngilizce açılır;
+      Ayarlar › Ritim › Dil'den değiştirilebilir.</p>
+  </details>
+  <details>
+    <summary>Nasıl güncellerim?</summary>
+    <p>Yeni sürüm çıkınca <a href="indir.html">indirme sayfasından</a> indirip kurman yeterli; listelerin ve ayarların
+      korunur. Microsoft Store ve App Store sürümleri kendiliğinden güncellenir.</p>
+  </details>
 
   <hr>
 
-  <h1>Ritim Support</h1>
-  <p>Ritim is a hi-fi music player for Windows ("Ritim Hi-Fi Player" on the Microsoft Store) and an iPhone app that receives your playlists over Wi-Fi.</p>
+  <section id="en" lang="en">
+    <h1>Support</h1>
+    <p>Ritim is a hi-fi music player for Windows ("Ritim Hi-Fi Player" on the Microsoft Store) and an iPhone app that
+      receives your playlists over Wi-Fi.</p>
 
-  <h2>Installing on Windows</h2>
-  <ul>
-    <li>Install Ritim from the <a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a> or with the <a href="./">installer on this site</a>. Only one copy stays on the PC; when one replaces the other, your playlists and settings are kept.</li>
-    <li>The installer is not code-signed. If Windows says "Windows protected your PC", choose More info › Run anyway.</li>
-  </ul>
+    <div class="iletisim">
+      <p><b>Questions, suggestions or bug reports:</b> <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a>.
+        You can also post <a href="https://github.com/whosaidreal/ritim-app/issues">on GitHub</a>. When reporting a bug,
+        mention your Windows version or iPhone model, the version of Ritim and what you were doing when it happened.</p>
+    </div>
 
-  <h2>DAC Exclusive</h2>
-  <p>DAC Exclusive, next to the output device at the bottom right, sends the sound straight to your DAC without the Windows mixer. With the volume at 100% the "Bit-perfect" label turns gold. If your device does not support this mode, or another program holds the sound, turn DAC Exclusive off and Ritim keeps playing in normal mode.</p>
+    <h2>Frequently asked</h2>
 
-  <h2>Pairing your iPhone with your PC</h2>
-  <ol>
-    <li>In Ritim on your PC, give a list a name and turn on "Sync with iPhone" in the list menu.</li>
-    <li>Open the "iPhone connection…" window from the list menu: it shows the 6-digit code and the PC's address.</li>
-    <li>Open <a href="https://apps.apple.com/app/id6835273556">Ritim</a> on your iPhone. When the PC shows up, tap "Pair" and enter the code. You only pair once.</li>
-  </ol>
-
-  <h2>If the PC does not show up on the iPhone</h2>
-  <ul>
-    <li>The PC and the iPhone must be on the same Wi-Fi network, with Ritim open on the PC.</li>
-    <li>On the iPhone, Settings › Ritim › Local Network must be on.</li>
-    <li>If Windows Firewall asked, choose "Allow access" for Ritim, and set the network type to "Private".</li>
-    <li>If it still does not show up, tap "Connect by address" on the iPhone and type the address from the "iPhone connection…" window.</li>
-  </ul>
-
-  <h2>Language</h2>
-  <p>On Windows, Ritim opens in Turkish or English following the language of Windows; you can change it under the ⋯ menu › Language, and it applies from the next start. On the iPhone, Ritim opens in Turkish when the phone is set to Turkish and in English otherwise; you can change it in Settings › Ritim › Language.</p>
-
-  <h2>Contact</h2>
-  <p>E-mail: <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a>. You can also post questions and problems <a href="https://github.com/whosaidreal/ritim-app/issues">on GitHub</a>.</p>
+    <details>
+      <summary>How do I install it on Windows?</summary>
+      <p>Download the installer from the <a href="indir.html">download page</a> and double-click it, or get Ritim from the
+        <a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a>. No administrator rights are needed;
+        Ritim is added to the Start menu and the desktop. Only one copy stays on the PC; when one replaces the other, your
+        playlists and settings are kept.</p>
+    </details>
+    <details>
+      <summary>Windows says "Windows protected your PC"</summary>
+      <p>The installer is not code-signed, so Windows shows this warning for a program it does not know. Choose
+        <b>More info</b>, then <b>Run anyway</b>. Each release lists the SHA-256 of its files in its
+        <a href="https://github.com/whosaidreal/ritim-app/releases">release notes</a>. The Microsoft Store version does not
+        show this warning.</p>
+    </details>
+    <details>
+      <summary>Microsoft Store or the installer?</summary>
+      <p>Both are the same program. The Microsoft Store version updates itself and shows no warning. The installer is for
+        those who do not use the Store; it is removed from Control Panel or Settings › Apps. Only one copy of Ritim stays on
+        the PC: the installer offers to replace the Store version, and the Store version offers to remove a copy installed
+        with the installer; if you choose "Keep it", it does not ask again. The portable version runs as a single file,
+        without installing.</p>
+    </details>
+    <details>
+      <summary>What is DAC Exclusive?</summary>
+      <p>DAC Exclusive, next to the output device at the bottom right, sends the sound straight to your DAC without the
+        Windows mixer. With the volume at 100% the "Bit-perfect" label turns gold. If your device does not support this
+        mode, or another program holds the sound, turn DAC Exclusive off and Ritim keeps playing in normal mode.</p>
+    </details>
+    <details>
+      <summary>How do I pair my iPhone with my PC?</summary>
+      <ol>
+        <li>In Ritim on your PC, give a list a name and turn on "Sync with iPhone" in the list menu.</li>
+        <li>Open the "iPhone connection…" window from the list menu: it shows the 6-digit code and the PC's address.</li>
+        <li>Open <a href="https://apps.apple.com/app/id6835273556">Ritim</a> on your iPhone. When the PC shows up, tap
+          "Pair" and enter the code. You only pair once.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>The PC does not show up on the iPhone</summary>
+      <ul>
+        <li>The PC and the iPhone must be on the same Wi-Fi network, with Ritim open on the PC.</li>
+        <li>On the iPhone, Settings › Ritim › Local Network must be on.</li>
+        <li>If Windows Firewall asked, choose "Allow access" for Ritim, and set the network type to "Private".</li>
+        <li>If it still does not show up, tap "Connect by address" on the iPhone and type the address from the "iPhone
+          connection…" window.</li>
+      </ul>
+    </details>
+    <details>
+      <summary>How do I change the language?</summary>
+      <p>On Windows, Ritim opens in Turkish or English following the language of Windows; you can change it under the ⋯
+        menu › Language, and it applies from the next start. On the iPhone, Ritim opens in Turkish when the phone is set
+        to Turkish and in English otherwise; you can change it in Settings › Ritim › Language.</p>
+    </details>
+    <details>
+      <summary>How do I update?</summary>
+      <p>When a new version is out, download and install it from the <a href="indir.html">download page</a>; your
+        playlists and settings are kept. The Microsoft Store and App Store versions update themselves.</p>
+    </details>
+  </section>
 </main>
+
+<footer class="alt-bilgi">
+  <div class="kap">
+    <div>
+      <a class="marka" href="./"><img src="img/simge-64.png" alt="" width="36" height="36"><span>Ritim</span></a>
+      <p class="tanim">Kendi müzik dosyaların için hi-fi çalar. Windows ve iPhone için ücretsiz.</p>
+    </div>
+    <div>
+      <h3>Sayfalar</h3>
+      <ul>
+        <li><a href="./">Ana sayfa</a></li>
+        <li><a href="indir.html">İndir</a></li>
+        <li><a href="gizlilik.html">Gizlilik</a></li>
+        <li><a href="https://github.com/whosaidreal/ritim-app/releases">Bütün sürümler</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Mağazalar</h3>
+      <ul>
+        <li><a href="https://apps.microsoft.com/detail/9NR2T597168G">Microsoft Store</a></li>
+        <li><a href="https://apps.apple.com/app/id6835273556">App Store</a></li>
+        <li><a href="https://github.com/whosaidreal/ritim-app/blob/main/THIRD_PARTY_NOTICES.txt">Açık kaynak lisansları</a></li>
+      </ul>
+    </div>
+    <p class="yasal">© 2026 advocado</p>
+  </div>
+</footer>
 </body>
 </html>
