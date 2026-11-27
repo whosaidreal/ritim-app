@@ -36,6 +36,9 @@ programı Microsoft Store sürümünü bulursa onun yerine geçmeyi önerir; lis
   sürükleyerek düzenleme.
 - **iPhone'a kablosuz:** bir kez 6 haneli kodla eşleşirsin; listelerin kapaklarıyla Wi-Fi üzerinden iPhone'una iner ve
   internet olmadan da çalar.
+- **Ses CD'leri:** CD diskten dijital olarak okunur ve kendi kalitesinde çalar. Şarkı isimleri diskte yazılıysa oradan,
+  değilse izin verirsen MusicBrainz'den ve parçanın ses izinden (AcoustID) bulunur. İstersen CD takınca Ritim açılır;
+  CD'ye sağ tıklayınca da "Ritim ile çal" çıkar.
 - **Ayrıca:** medya tuşları, görev çubuğu önizlemesinde oynatma düğmeleri, ReplayGain, M3U, M3U8, PLS ve WPL listeleri;
   Türkçe ve İngilizce arayüz.
 
@@ -45,7 +48,8 @@ programı Microsoft Store sürümünü bulursa onun yerine geçmeyi önerir; lis
   <img src="img/iphone-calar.webp" width="230" alt="iPhone'da çalar ekranı: FLAC, 24 bit, 96 kHz ve Hi-Res">
 </p>
 
-Hesap, reklam ya da veri toplama yoktur; Ritim internete bağlanmaz.
+Hesap, reklam ya da veri toplama yoktur; Ritim internete yalnızca, izin verirsen, ses CD'lerinin şarkı isimlerini bulmak
+için bağlanır.
 
 Ritim, açık kaynaklı bileşenleri (Qt / PySide6, PortAudio, libsndfile ve diğerleri) değiştirmeden içerir. Lisansları:
 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
@@ -54,8 +58,9 @@ Ritim, açık kaynaklı bileşenleri (Qt / PySide6, PortAudio, libsndfile ve di�
 
 **English.** This repository hosts the public pages and the Windows releases of Ritim; the source code is not here.
 Ritim is a free hi-fi music player for Windows that plays the music files on your PC in full lossless quality, and
-bit-perfect with DAC Exclusive on. Its iPhone app receives your playlists over Wi-Fi and plays them offline. No account,
-no ads, no data collection; the interface is in English and Turkish.
+bit-perfect with DAC Exclusive on. Its iPhone app receives your playlists over Wi-Fi and plays them offline. It plays
+audio CDs too and, if you allow it, finds their track names online. No account, no ads, no data collection; the
+interface is in English and Turkish.
 [Download](https://whosaidreal.github.io/ritim-app/indir.html) ·
 [Support](https://whosaidreal.github.io/ritim-app/destek.html#en) ·
 [Privacy](https://whosaidreal.github.io/ritim-app/gizlilik.html#en).
